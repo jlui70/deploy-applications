@@ -14,7 +14,7 @@ spec:
     namespace: uzi-space
   project: default  
   source:
-    repoURL: 'https://github.com/uzieljr/deploy-applications.git'
+    repoURL: 'https://github.com/jlui70/deploy-applications.git'
     path: site-helm
     targetRevision: HEAD
     helm:
