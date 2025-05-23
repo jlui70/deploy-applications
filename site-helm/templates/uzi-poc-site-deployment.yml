@@ -22,10 +22,6 @@ spec:
       containers:
       - name: site-poc-uzi
         imagePullPolicy: Always
-<<<<<<< HEAD
         image: luiz7030/poc-site:df0dd56
-=======
-        image: uzieljr/poc-site:df0dd56
->>>>>>> refs/remotes/origin/main
         ports:
         - containerPort: 80        
