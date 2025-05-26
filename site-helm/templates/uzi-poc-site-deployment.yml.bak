@@ -7,7 +7,7 @@ kind: Deployment
 metadata:
   name: site-poc-uzi
 
-#Que estado deseja para o objeto.
+#Que estado deseja para o objeto
 spec:
   selector:
     matchLabels:
@@ -22,6 +22,6 @@ spec:
       containers:
       - name: site-poc-uzi
         imagePullPolicy: Always
-        image: luiz7030/poc-site:f4426dc
+        image: luiz7030/poc-site:76968bb
         ports:
         - containerPort: 80        
