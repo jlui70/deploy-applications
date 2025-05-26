@@ -194,7 +194,7 @@ env:
   ## key via a separately provisioned secret (see existingSecretName above).
   ## Ref: https://docs.drone.io/installation/reference/drone-rpc-secret/
   ##
-  DRONE_RPC_SECRET: dfd3c204596490a31b0ca7b70a191523  #gerado no seu linux(no meu caso) a partir desse comando: openssl rand -hex 16
+  DRONE_RPC_SECRET: f93d5c4f6b0d64832d0d93a4fb27e4b4  #gerado no seu linux(no meu caso) a partir desse comando: openssl rand -hex 16
   DRONE_USER_CREATE: username:jlui70,admin:true
   DRONE_USER_FILTER: jlui70
 
