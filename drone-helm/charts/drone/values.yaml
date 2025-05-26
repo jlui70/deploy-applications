@@ -69,7 +69,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: 4b99-191-180-8-209.ngrok-free.app
+    - host: d66c-191-180-8-209.ngrok-free.app
       paths:
         - path: /
           pathType: Prefix
@@ -183,7 +183,7 @@ env:
   ## REQUIRED: Set the user-visible Drone hostname, sans protocol.
   ## Ref: https://docs.drone.io/installation/reference/drone-server-host/
   ##
-  DRONE_SERVER_HOST: 4b99-191-180-8-209.ngrok-free.app
+  DRONE_SERVER_HOST: d66c-191-180-8-209.ngrok-free.app
   ## The protocol to pair with the value in DRONE_SERVER_HOST (http or https).
   ## Ref: https://docs.drone.io/installation/reference/drone-server-proto/
   ##
