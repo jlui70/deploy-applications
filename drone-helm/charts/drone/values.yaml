@@ -69,7 +69,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: ec1a8-191-180-8-209.ngrok-free.app/login
+    - host: 4b99-191-180-8-209.ngrok-free.app
       paths:
         - path: /
           pathType: Prefix
@@ -183,7 +183,7 @@ env:
   ## REQUIRED: Set the user-visible Drone hostname, sans protocol.
   ## Ref: https://docs.drone.io/installation/reference/drone-server-host/
   ##
-  DRONE_SERVER_HOST: c1a8-191-180-8-209.ngrok-free.app/login
+  DRONE_SERVER_HOST: 4b99-191-180-8-209.ngrok-free.app
   ## The protocol to pair with the value in DRONE_SERVER_HOST (http or https).
   ## Ref: https://docs.drone.io/installation/reference/drone-server-proto/
   ##
@@ -194,7 +194,7 @@ env:
   ## key via a separately provisioned secret (see existingSecretName above).
   ## Ref: https://docs.drone.io/installation/reference/drone-rpc-secret/
   ##
-  DRONE_RPC_SECRET: f93d5c4f6b0d64832d0d93a4fb27e4b4  #gerado no seu linux(no meu caso) a partir desse comando: openssl rand -hex 16
+  DRONE_RPC_SECRET: 1efebba085581d4b5661fc1ae4083073  #gerado no seu linux(no meu caso) a partir desse comando: openssl rand -hex 16
   DRONE_USER_CREATE: username:jlui70,admin:true
   DRONE_USER_FILTER: jlui70
 
@@ -227,9 +227,9 @@ env:
   ## GitHub-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/github/
   ##
-  DRONE_GITHUB_CLIENT_ID: Ov23liOR4DrvONHs1DRR   #git ID gerado em: Settings > Developer settings  > OAuth Apps
+  DRONE_GITHUB_CLIENT_ID: Ov23liZnqPm1FW7vzeHV   #git ID gerado em: Settings > Developer settings  > OAuth Apps
 
-  DRONE_GITHUB_CLIENT_SECRET: c1d4c2f73501922e6aa9c0c049799e42743659c3 #git secret gerado em: Settings > Developer settings  > OAuth Apps
+  DRONE_GITHUB_CLIENT_SECRET: b813b89a04d9bdd8158d62117f25f2a44ddafe6a #git secret gerado em: Settings > Developer settings  > OAuth Apps
 
   ## GitLab-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/gitlab/

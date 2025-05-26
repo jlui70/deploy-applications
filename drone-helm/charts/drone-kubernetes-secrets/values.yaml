@@ -85,7 +85,7 @@ env:
   ## This is commented out in order to leave you the ability to set the
   ## key via a separately provisioned secret (see existingSecretName above).
   ##
-  SECRET_KEY: f93d5c4f6b0d64832d0d93a4fb27e4b4 #gerado no seu linux(no meu caso) a partir desse comando: openssl rand -hex 16 mesmo configurado no values do drone server
+  SECRET_KEY: 1efebba085581d4b5661fc1ae4083073 #gerado no seu linux(no meu caso) a partir desse comando: openssl rand -hex 16 mesmo configurado no values do drone server
 
   ## The Kubernetes namespace to retrieve secrets from.
   ##
