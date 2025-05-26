@@ -22,6 +22,6 @@ spec:
       containers:
       - name: site-poc-uzi
         imagePullPolicy: Always
-        image: luiz7030/poc-site:76968bb
+        image: luiz7030/poc-site:6b51c8c
         ports:
         - containerPort: 80        
