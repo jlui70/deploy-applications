@@ -229,7 +229,7 @@ env:
   ##
   DRONE_GITHUB_CLIENT_ID: Ov23liOR4DrvONHs1DRR   #git ID gerado em: Settings > Developer settings  > OAuth Apps
 
-  DRONE_GITHUB_CLIENT_SECRET: fe98c0f09ceb82300bfa9db08a5bbc831e4272cf  #git secret gerado em: Settings > Developer settings  > OAuth Apps
+  DRONE_GITHUB_CLIENT_SECRET: c1d4c2f73501922e6aa9c0c049799e42743659c3 #git secret gerado em: Settings > Developer settings  > OAuth Apps
 
   ## GitLab-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/gitlab/
