@@ -7,7 +7,7 @@ kind: Deployment
 metadata:
   name: site-poc-uzi
 
-#Que estado deseja para o objeto.
+#Que estado deseja para o objeto
 spec:
   selector:
     matchLabels:
